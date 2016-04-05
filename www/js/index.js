@@ -17,64 +17,62 @@
  * under the License.
  */
 
-var watchLocationID = 0;
-var watchAccelerationID = 0;
-var watchCompassID = 0;
 var app = {
+    watchLocationID : 0,
+    watchAccelerationID : 0,
+    watchCompassID : 0,
     
     // Application Constructor
     initialize: function() {
-        this.bindEvents();
+        app.bindEvents();
     },
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
-      if (window.isCordovaApp) {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-        document.addEventListener('pause', this.onPause, false);
-        document.addEventListener('resume', this.onResume, false);
-      } else this.onDeviceReady();
+      if (window.cordova) {
+        document.addEventListener('deviceready', app.onDeviceReady, false);
+        document.addEventListener('pause', app.onPause, false);
+        document.addEventListener('resume', app.onResume, false);
+      } else app.onDeviceReady();
     },
     // deviceready Event Handler
     //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         var parentElement = document.getElementById('deviceready');
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-        this.onStart();
+        app.onStart();
     },
     onStart: function() {
         if (navigator.geolocation)
-          watchLocationID = navigator.geolocation.watchPosition(app.onLocation, app.onLocationError, { timeout: 30000 }); // Max Timeout = 30seconds
+          app.watchLocationID = navigator.geolocation.watchPosition(app.onLocation, app.onLocationError, { timeout: 30000 }); // Max Timeout = 30 seconds
         else document.getElementById('location').innerHTML = 'Location not Supported';
         if (navigator.compass)
-          watchCompassID = navigator.compass.watchHeading(app.onCompass, app.onCompassError, { frequency: 50 }); // Update every 0.050 seconds
+          app.watchCompassID = navigator.compass.watchHeading(app.onCompass, app.onCompassError, { frequency: 50 }); // Update 50 times per seconds
         else document.getElementById('compass').innerHTML = 'Compass not Supported';
-        //navigator.accelerometer.getCurrentAcceleration(app.onAcceleration, app.onAccelerationError);
         if (navigator.accelerometer)
-          watchAccelerationID = navigator.accelerometer.watchAcceleration(app.onAcceleration, app.onAccelerationError, { frequency: 50 }); // Update every 0.050 seconds
+          app.watchAccelerationID = navigator.accelerometer.watchAcceleration(app.onAcceleration, app.onAccelerationError, { frequency: 50 }); // Update 50 times per seconds
         else document.getElementById('accel').innerHTML = "Accelerometer not Supported";
         window.addEventListener("batterystatus", app.onBatteryStatus, false);
     },
     onPause: function() {
         if (navigator.geolocation)
-            navigator.geolocation.clearWatch(watchLocationID);
-        watchLocationID = 0;
+            navigator.geolocation.clearWatch(app.watchLocationID);
+        app.watchLocationID = 0;
         if (navigator.compass)
-            navigator.compass.clearWatch(watchCompassID);
-        watchCompassID = 0;
+            navigator.compass.clearWatch(app.watchCompassID);
+        app.watchCompassID = 0;
         if (navigator.accelerometer)
-            navigator.accelerometer.clearWatch(watchAccelerationID);
-        watchAccelerationID = 0;
+            navigator.accelerometer.clearWatch(app.watchAccelerationID);
+        app.watchAccelerationID = 0;
     },
     onResume: function() {
-      this.onStart();
+      document.getElementById('status').innerHTML = 'Resume';  
+      app.onStart();
     },
     onLocation: function(position) {
         document.getElementById('location').innerHTML = 'Latitude: ' + position.coords.latitude.toFixed(4) + '<br />' +
