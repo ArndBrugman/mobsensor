@@ -1,0 +1,481 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Bridge",
+				"BridgesDiscovered"
+			],
+			[
+				"Bri",
+				"BridgeActionDelayed"
+			],
+			[
+				"app",
+				"apply"
+			],
+			[
+				"Ang",
+				"HueAngSatBri"
+			],
+			[
+				"user",
+				"Username"
+			],
+			[
+				"Ligh",
+				"LightIds"
+			],
+			[
+				"Light",
+				"LightsIds"
+			],
+			[
+				"Lig",
+				"LightNr"
+			],
+			[
+				"State",
+				"StateToHTMLColor"
+			],
+			[
+				"hue",
+				"hueConnector"
+			],
+			[
+				"group",
+				"GroupNr"
+			],
+			[
+				"Li",
+				"LightNr"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"inline",
+				"inline-table"
+			],
+			[
+				"lig",
+				"LightSetXY"
+			],
+			[
+				"Color",
+				"ColorTemperature"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 2919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/index.js",
+			"settings":
+			{
+				"buffer_size": 5058,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/css/index.css",
+			"settings":
+			{
+				"buffer_size": 3795,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/arnd/OneDrive/Developer/mobsensor/platforms/android/res/xml/config.xml",
+		"/Users/arnd/OneDrive/Developer/mobsensor/platforms/android/AndroidManifest.xml",
+		"/Users/arnd/OneDrive/Developer/huewi/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"this.",
+			"this",
+			"status",
+			"\"url\": \"https://www.facebook.com/\",",
+			"\"url\": \"www\",",
+			"url:",
+			"Item",
+			"menuimtem",
+			"StatusHeartbeat",
+			"{{Status}}",
+			"huewiUpdate",
+			"#HueStatusbar",
+			"Status = ",
+			"Colorte",
+			"GetCT",
+			"CT",
+			"HTMLColor",
+			"StateToHTMLColor",
+			"HeartbeatInterval",
+			"StateToHTMLColor",
+			"window.",
+			"2500",
+			"HelperToStringArray",
+			"String",
+			"SetGroupLight",
+			"HelperToStringArray",
+			"GetGroupLight",
+			"StringA",
+			"Status()",
+			"$rootScope.$on('huewiUpdate',",
+			"tick",
+			"esc",
+			"asc",
+			"schedu",
+			"x",
+			"close",
+			"%",
+			"canvas",
+			"<div><br><br></div>",
+			"<br>",
+			"<br>	",
+			"<br>",
+			"br",
+			"'nav'",
+			"cdivck",
+			"nav",
+			"divst",
+			"li",
+			"$index",
+			"right",
+			"MuHue.",
+			"()..",
+			"MyHue.",
+			"state",
+			"appl",
+			"$scope.apply()",
+			"MenuUpdate",
+			"27",
+			"13",
+			"      $",
+			"$rootScope.$on('huewiUpdate',",
+			"GroupAndLightController",
+			"h4",
+			"LightId",
+			"getLi",
+			"HueStatusCtrl",
+			"MenuUpdate",
+			"SetMenuItem",
+			"MenuUpdate",
+			"room",
+			"85)\",",
+			", 1)\",",
+			"\"",
+			"TimeBasedGradientUpdate",
+			"timebased",
+			"240",
+			"time",
+			"0.75)",
+			"0.88)",
+			"z-index",
+			"0.6)",
+			"#rgba",
+			"#",
+			"#rgba",
+			", 1)",
+			",#",
+			"MenuUpdate",
+			"rgba",
+			"MenuUpdate",
+			"all",
+			"colormode",
+			"bootstrap",
+			"hideon",
+			"h4>",
+			"right",
+			"z-index",
+			"+ 1",
+			"BridgeBusy",
+			"1]",
+			"MenuUpdate",
+			"27",
+			".SetBrightness",
+			"SetBrig",
+			"Event.Key",
+			"Event.",
+			".key",
+			"this",
+			"controll",
+			"== 13",
+			"27",
+			"function(Event) ",
+			"bind",
+			"GroupsController",
+			"TabController",
+			"MenuController",
+			"SetMenuItem(",
+			"SetBrig",
+			"timebasedgradient",
+			"$.get",
+			"##",
+			"0.",
+			"//",
+			"// ",
+			"//",
+			"range",
+			"slider",
+			"$.get",
+			"1.3.14"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"url\": \"\",",
+			"\"url\": \"https://www.facebook.com/\",",
+			"url\"url\": \"https://www.facebook.com/\",",
+			"url",
+			"click",
+			"list",
+			"div",
+			"Index",
+			"().",
+			"0.85)\",",
+			", 85)\",",
+			"'",
+			"0.80)",
+			"0.75)",
+			"0.88)",
+			"rgba",
+			", 0.6)",
+			", #",
+			"BridgePreventOverload",
+			"## 0.",
+			"",
+			"\"",
+			"Group",
+			"LightNr",
+			"app.",
+			"hueConnector.MyHue().",
+			"').scope()",
+			"$('#",
+			"$scope.",
+			"MenuItem === ",
+			"SetMenuItem",
+			"MenuCtrl.Item === ",
+			"Update(",
+			"''",
+			"Light",
+			"Group",
+			"navdrawerToggle",
+			"navdrawerClose",
+			"\"",
+			"self",
+			"huewi",
+			"hueWe",
+			"Group",
+			"self",
+			"OneDrive"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/index.html",
+					"settings":
+					{
+						"buffer_size": 2919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1987,
+								1987
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/js/index.js",
+					"settings":
+					{
+						"buffer_size": 5058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								962,
+								962
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/css/index.css",
+					"settings":
+					{
+						"buffer_size": 3795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3083,
+								3083
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1091.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true
+}
